@@ -1,0 +1,42 @@
+APLICAÇÃO/NECESSIDADE: SISTEMA DE BENEFÍCIOS (CLUBE DE VANTAGENS COM BENEFÍCIOS)
+
+- Vão existir associados (clientes)
+
+- Vão ser oferecidos produtos para esses associados
+
+- Existirão descontos, parcerias
+
+
+
+- Qualquer pessoa pode se associar ao clube de vantagens e terão acesso aos benefícios
+
+- A remuneração vem através da mensalidade dos clientes (associados)
+
+- Existirão categoria fixas: ouro, prata e bronze para os associados com benefícios e mensalidades distintas para cada
+
+- O identificador do associado para cadastro é o E-mail (Unique Key)
+
+- O associado possuirá nome, CPF, entre outros
+
+- Para o SÓCIO (CLIENTES) é oferecido produtos e serviços (um desconto por exemplo) que são providos por PARCEIROS (FORNECEDORES) (dono de um negócio por exemplo)
+
+- Benefícios poderão ser cadastrados (apenas pelo administrador)
+
+- BENEFÍCIOS: cada parceiro oferecerá um ou mais produtos onde o benefício é vinculado ao produto (cada produto terá o seu benefício)
+
+- O benefício é o desconto, o brinde, a promoção, além de possuirem validade (não são permanentes), quando acabar sai da lista de disponibilidade para o cliente (sócio) utlizar
+	- Regra da validade: enquanto estiver dentro do prazo de validade o benefício está ativo (acabou a valide o benefício é intivado, O PRODUTO CONTINUA EXISTINDO)
+	- Um benefício só pode ser alterado enquanto ele está INATIVO, ou seja, se estiver ATIVO não pode ser alterado
+
+- Se o benefício estiver vinculado ao preço, pode ser fixo ou em percentual, ou um extra gratuito
+
+- O benefício é por produto e por CATEGORIA (ouro, prata e bronze), ou seja, mudou a categoria mudou o benefício
+
+- Produtos e benefícios podem ter em uma categoria e não ter na outra
+
+- Planos possuem validade (pago por um período)
+
+- Os planos são mensais, semestrais ou anuais com valores configuráveis (Ex.: o plano semestral da categoria ou custa XX)
+
+- Sócios podem possuir dependentes (apenas direto, esposa e filhos)
+	- Os dependentes possuem os mesmos benefícios que os sócios, porém com uma taxa a mais além do valor da própria taxa
